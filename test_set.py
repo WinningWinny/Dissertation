@@ -1,9 +1,20 @@
-user_data = []
+user_data = ["cabbbaa",
+             "abbaba",
+             ]
 user_comp_dict = {}
 
 
 
-
+"""
+"CATGTGGCCAATT"
+{
+    "A": ["T", "U"],
+    "G": ["C"],
+    "C": ["G"],
+    "T": ["A"],
+    "U": ["A"]
+}
+"""
 
 
 
