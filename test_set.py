@@ -1,6 +1,37 @@
 user_data = []
 user_comp_dict = {}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 test_data = ["010abba00100", "abbcbbcbbbcbb",
              "abbcbbcbbbcbbbbcbbbcbb",
              "a",
@@ -23,23 +54,17 @@ test_data = ["010abba00100", "abbcbbcbbbcbb",
              "abababababababababababababababababababababababababababababa",
              "111000abcddcba0101",
              "111001abcddcba01010", "0100100010101010", "abbbbacabbbbaaca",
-             ("ababa123321,.,.,yty[{1kjoppojk21}]975313579" * 100),
-             ("qwertyuioplkjhgfdsazxcvbnmmnbvcxzasdfghjklpoiuytrewq" * 1000)]
+             ("ababa123321,.,.,yty[{1kjoppojk21}]975313579" * 1),
+             ("qwertyuioplkjhgfdsazxcvbnmmnbvcxzasdfghjklpoiuytrewq" * 1)]
 
-dna_set = ["AG",
-           "ACG",
-           "CCTU",
-           "AGCUGA",
-           ("CCTTTUGAGACU" * 1),
-           ("AGCUGA" * 1),
-           ("AGAGAGTUTCCCCCCUTU" * 1),
-           "CAGTTGGAACAGG"
-           ]
+dna_set = [
+    "CATGTGGCCAATT"
+]
 
 dna_rna_comp_dict = {
-    "A": ["G"],
-    "G": ["A"],
-    "C": ["T", "U"],
-    "T": ["C"],
-    "U": ["C"]
+    "A": ["T", "U"],
+    "G": ["C"],
+    "C": ["G"],
+    "T": ["A"],
+    "U": ["A"]
 }
