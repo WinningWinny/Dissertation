@@ -1,47 +1,6 @@
-user_data = ["cabbbaa",
-             "abbaba",
-             ]
+user_data = []
+
 user_comp_dict = {}
-
-
-
-"""
-"CATGTGGCCAATT"
-{
-    "A": ["T", "U"],
-    "G": ["C"],
-    "C": ["G"],
-    "T": ["A"],
-    "U": ["A"]
-}
-"""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 test_data = ["010abba00100", "abbcbbcbbbcbb",
              "abbcbbcbbbcbbbbcbbbcbb",
