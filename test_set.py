@@ -1,6 +1,7 @@
 user_comp_dict = {}
+user_data = []
 
-user_data = [
+test_data_multiple = [
     ("a" * 5),
     ("aba" * 5),
     ("bb" * 5),
@@ -21,16 +22,6 @@ user_data = [
     ("ababa123321,.,.,yty[{1kjoppojk21}]975313579" * 50),
     ("qwertyuioplkjhgfdsazxcvbnmmnbvcxzasdfghjklpoiuytrewq" * 50)
 ]
-
-
-
-
-
-
-
-
-
-
 
 test_data = [
     "010abba00100",
@@ -62,7 +53,7 @@ test_data = [
     ("qwertyuioplkjhgfdsazxcvbnmmnbvcxzasdfghjklpoiuytrewq" * 10)
 ]
 
-#test_data_concatenate = [''.join(test_data_multiple)]
+test_data_concatenate = [''.join(test_data_multiple)]
 
 dna_set = [
     "CATGTGGCCAATT"
