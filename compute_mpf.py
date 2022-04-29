@@ -3,12 +3,12 @@ import construct_graph
 
 # Return lists of maximal palindrome created from the path found.
 def construct_mpf(string, path):
-    if path is None:
-        return None
-    s = ''.join(string)  # joins list of character to single string
-    path.reverse()
-    mpf_list = [s[path[i]:path[i + 1]] for i in range(len(path) - 1)]  # breaks string into maximal palindrome list
-    return mpf_list
+    if path is not None:
+        s = ''.join(string)  # joins list of character to single string
+        path.reverse()
+        mpf_list = [s[path[i]:path[i + 1]] for i in range(len(path) - 1)]  # breaks string into maximal palindrome list
+        return mpf_list
+    return None
 
 
 # Return lists of maximal palindrome factorisation that is equivalent to the string made up of prefix palindrome &

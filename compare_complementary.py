@@ -5,5 +5,6 @@ def query_comp(key, dictionary):
     else:
         return []
 
+
 def test_comp(x1, x2, dictionary):
     return x2 in query_comp(x1, dictionary)

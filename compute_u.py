@@ -1,4 +1,3 @@
-
 # Returns the List U where U is the start positions of maximal palindromes is stored at the end position
 def u(mpl):
     u_list = []
