@@ -1,6 +1,6 @@
 # Finds the smallest initial odd greater than 1 and even palindrome and add them to a list,
 # if no  odd greater than 1 or even palindrome is found then we add a palindrome equal to 1
-# They will remove the palindrome at the front of the string and will continue until the string is empty
+# the function will remove the palindrome at the front of the string and will continue until the string is empty
 def initial_palindrome(d):
     current_list = d
     done = False
