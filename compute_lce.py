@@ -1,4 +1,4 @@
-import compare_complimentary
+import compare_complementary
 
 
 # returns the length of the longest common extension starting at string[n1] and reverse string[n2]
@@ -15,7 +15,7 @@ def lce_query(length, string, str_reverse, n1, n2):
 def lce_query_comp_even(length, string, str_reverse, n1, n2, comp_dict):
     count = 0
     while n1 + count < length and n2 + count < length \
-            and (string[n1 + count] in compare_complimentary.query_comp(str_reverse[n2 + count], comp_dict)):
+            and (string[n1 + count] in compare_complementary.query_comp(str_reverse[n2 + count], comp_dict)):
         count += 1
     return count
 
@@ -24,7 +24,7 @@ def lce_query_comp_even(length, string, str_reverse, n1, n2, comp_dict):
 def lce_query_comp_odd(length, string, str_reverse, n1, n2, comp_dict):
     count = 1
     while n1 + count < length and n2 + count < length \
-            and (string[n1 + count] in compare_complimentary.query_comp(str_reverse[n2 + count], comp_dict)):
+            and (string[n1 + count] in compare_complementary.query_comp(str_reverse[n2 + count], comp_dict)):
         count += 1
     return count
 
